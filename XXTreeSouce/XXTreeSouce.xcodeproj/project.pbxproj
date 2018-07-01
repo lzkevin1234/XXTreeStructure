@@ -15,6 +15,8 @@
 		9607545A20E8C8FD0084290C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9607545920E8C8FD0084290C /* main.m */; };
 		9607546420E8C8FD0084290C /* XXTreeSouceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9607546320E8C8FD0084290C /* XXTreeSouceTests.m */; };
 		9607546F20E8C8FD0084290C /* XXTreeSouceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9607546E20E8C8FD0084290C /* XXTreeSouceUITests.m */; };
+		9607547E20E8CC000084290C /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 9607547D20E8CC000084290C /* Model.m */; };
+		9607548120E8D07C0084290C /* TreeCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9607548020E8D07C0084290C /* TreeCellTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		9607546A20E8C8FD0084290C /* XXTreeSouceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XXTreeSouceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9607546E20E8C8FD0084290C /* XXTreeSouceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXTreeSouceUITests.m; sourceTree = "<group>"; };
 		9607547020E8C8FD0084290C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9607547C20E8CC000084290C /* Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		9607547D20E8CC000084290C /* Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		9607547F20E8D07C0084290C /* TreeCellTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeCellTableViewCell.h; sourceTree = "<group>"; };
+		9607548020E8D07C0084290C /* TreeCellTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeCellTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +115,11 @@
 				9607545320E8C8FD0084290C /* Assets.xcassets */,
 				9607545520E8C8FD0084290C /* LaunchScreen.storyboard */,
 				9607545820E8C8FD0084290C /* Info.plist */,
+				9607547F20E8D07C0084290C /* TreeCellTableViewCell.h */,
+				9607548020E8D07C0084290C /* TreeCellTableViewCell.m */,
 				9607545920E8C8FD0084290C /* main.m */,
+				9607547C20E8CC000084290C /* Model.h */,
+				9607547D20E8CC000084290C /* Model.m */,
 			);
 			path = XXTreeSouce;
 			sourceTree = "<group>";
@@ -265,6 +275,8 @@
 				9607544F20E8C8FC0084290C /* ViewController.m in Sources */,
 				9607545A20E8C8FD0084290C /* main.m in Sources */,
 				9607544C20E8C8FC0084290C /* AppDelegate.m in Sources */,
+				9607548120E8D07C0084290C /* TreeCellTableViewCell.m in Sources */,
+				9607547E20E8CC000084290C /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

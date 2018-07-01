@@ -7,9 +7,10 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
-
+#import "Model.h"
+@interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
+@property (nonatomic,weak)UITableView *tableView;
+@property (nonatomic,strong)NSMutableArray *dataSource;
 @end
 
 @implementation ViewController
@@ -17,14 +18,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    // Do any additional setup after loading the view, typically from a nib.
+    UITableView *tableV =[[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
+    self.tableView = tableV;
+    self.tableView = tableV;
+    self.tableView.delegate = self;
+    self.tableView.dataSource = self;
+    [self.view addSubview:self.tableView];
+    
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return self.dataSource.count;
 }
-
-
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return nil;
+}
 @end
